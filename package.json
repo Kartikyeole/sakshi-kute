@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "build": "echo \"No build process specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "ejs": "^3.1.9",
@@ -14,5 +14,6 @@
     "mongoose": "^8.0.4"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "",
+  "license": "ISC"
 }
